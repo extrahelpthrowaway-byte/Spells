@@ -11,7 +11,7 @@
     <supports>Sorcerer, Wizard, Artificer, Warlock</supports>
     <description>
       <p>You use the incantation of fire in the following effects depending on number of incantations used before release, the number of incantations reset after 2 turns or after failing a concentration saving throw.</p>
-      <p class="indent">The base incantation levels up at levels 5, 10, 15, 20.
+      <p class="indent">The base incantation levels up at levels 5, 10, 15, 20.</p>
       <p class="indent">No Incantation: Embers - You create a spark to burn or heat objects/characters. The target suffers 1d6 fire damage.</p>
       <p class="indent">1 Incantation: Flame - You create a flame to moderately burn or heat objects/characters. You may either enspell a weapon with fire damage or make an attack. An enspelled weapon will deal an extra 1d6 of fire damage which you must maintain concentration on. The target of the attack must make a Dexterity saving throw and suffers 2d6 fire damage on a failed save</p>
       <p class="indent">2 Incantations: Blast - You create a flaming blast to melt objects/characters. The target must make a Dexterity saving throw, suffering 3d6 fire damage on a failed save and half damage on a success.</p>
@@ -39,4 +39,5 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
+
 </elements>
