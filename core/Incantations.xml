@@ -13,31 +13,31 @@
       <p>You use the incantation of fire in the following effects depending on number of incantations used before release, the number of incantations reset after 2 turns or after failing a concentration saving throw.</p>
       <p> </p>
       <p>The base incantation levels up at levels 5, 10, 15, 20.</p>
-      <p class="indent">No Incantation: Embers - You create a spark to burn or heat objects/characters. The target suffers 1d6 fire damage.</p>
+      <p class="indent">No Incantation: Embers - You create a spark to enhance a weapon's efficiency. You enspell a weapon that will deal an extra 1d8 of fire damage.</p>
       <p> </p>
-      <p class="indent">1 Incantation: Flame - You create a flame to moderately burn or heat objects/characters. You may either enspell a weapon with fire damage or make an attack. An enspelled weapon will deal an extra 1d6 of fire damage which you must maintain concentration on. The target of the attack must make a Dexterity saving throw and suffers 2d6 fire damage on a failed save</p>
+      <p class="indent">1 Incantation: Flame - You create a flame to moderately burn or heat objects/characters. The target suffers 2d8 fire damage.</p>
       <p> </p>
-      <p class="indent">2 Incantations: Blast - You create a flaming blast to melt objects/characters. The target must make a Dexterity saving throw, suffering 3d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">2 Incantations: Blast - You create a flaming blast to melt objects/characters. The target suffers 3d8 fire damage.</p>
       <p> </p>
-      <p class="indent">3 Incantations: Scorch - You scorch the enemy in a searing fire. The target must make a Dexterity saving throw, suffering 4d6 fire damage on a failed save, and half damage on a success.</p>
+      <p class="indent">3 Incantations: Scorch - You scorch the enemy in a searing fire. The target must make a Dexterity saving throw, suffering 4d8 fire damage on a failed save, and half damage on a success.</p>
       <p> </p>
-      <p class="indent">4 Incantations: Incinerate - You create an intense flame to incinerate objects/characters. All targets in a 10-ft radius must make a Dexterity saving throw, suffering 5d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">4 Incantations: Incinerate - You create an intense flame to incinerate objects/characters. All targets in a 10-ft radius must make a Dexterity saving throw, suffering 5d8 fire damage on a failed save and half damage on a success.</p>
       <p> </p>
-      <p class="indent">5 Incantations: Wildfire - You create a fast-heating wildfire to engulf objects/characters. All targets in a 10-ft radius must make a Dexterity saving throw, suffering 6d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">5 Incantations: Wildfire - You create a fast-heating wildfire to engulf objects/characters. All targets in a 10-ft radius must make a Dexterity saving throw, suffering 6d8 fire damage on a failed save and half damage on a success.</p>
       <p> </p>
-      <p class="indent">6 Incantations: Inferno - You create a raging inferno to melt objects/characters. All targets in a 15-ft radius must make a Dexterity saving throw, suffering 7d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">6 Incantations: Inferno - You create a raging inferno to melt objects/characters. All targets in a 15-ft radius must make a Dexterity saving throw, suffering 7d8 fire damage on a failed save and half damage on a success.</p>
       <p> </p>
-      <p class="indent">7 Incantations: Fireball - You create a near-instantanous explosion to destroy objects/characters. All targets in a 15-ft radius must make a Dexterity saving throw, suffering 8d6 fire damage on a failed save, or half damage on a success.</p>
+      <p class="indent">7 Incantations: Fireball - You create a near-instantanous explosion to destroy objects/characters. All targets in a 15-ft radius must make a Dexterity saving throw, suffering 8d8 fire damage on a failed save, or half damage on a success.</p>
       <p> </p>
-      <p class="indent">8 Incantations: Cremate - You create a bone-melting fire to destroy objects/characters. All targets in a 20-ft radius must make a Dexterity saving throw, suffering 9d6 fire damage on a failed save, or half damage on a success.</p>
+      <p class="indent">8 Incantations: Cremate - You create a bone-melting fire to destroy objects/characters. All targets in a 20-ft radius must make a Dexterity saving throw, suffering 9d8 fire damage on a failed save, or half damage on a success.</p>
       <p> </p>
-      <p class="indent">9 Incantations: Explosion - You create a catastrophic explosion to annihilate objects/characters. All targets in a 20-ft radius must make a Dexterity saving throw, suffering 10d6 fire damage on a failed save, or half damage on a success.</p>
+      <p class="indent">9 Incantations: Explosion - You create a catastrophic explosion to annihilate objects/characters. All targets in a 20-ft radius must make a Dexterity saving throw, suffering 10d8 fire damage on a failed save, or half damage on a success.</p>
       <p> </p>
-      <p>Exceeding 3 incantations above your current class level will cause your character to accumulate an exhaustion point.</p>
+      <p>Exceeding 3 incantations above your current class level will require a d20 roll (success: 12+) to add more incantation stacks. Failing this roll will cause your character to damage their magical focus, taking 1d8 damage.</p>
     </description>
     <setters>
       <set name="keywords">fire</set>
-      <set name="level">0</set>
+      <set name="level">9</set>
       <set name="school">Magick</set>
       <set name="time">1 action</set>
       <set name="duration">Instantaneous</set>
@@ -56,30 +56,30 @@
       <p>You use the incantation of water in the following effects depending on number of incantations used before release, the number of incantations reset after 2 turns or after failing a concentration saving throw.</p>
       <p> </p>
       <p>The base incantation levels up at levels 5, 10, 15, 20.</p>
-      <p class="indent">No Incantation: Embers - You create a spark to burn or heat objects/characters. The target suffers 1d6 fire damage.</p>
+      <p class="indent">No Incantation: Bubble - You create a floating bubble that allows you to maneuver around the battlefield, cushion your fall, and shield allies. You can use this bubble to increase your AC by +2 until concentration is lost, negate all fall damage as a reaction, increase speed by 10 ft until concentration is lost, or reduce incoming damage to you or an ally by 1d12 + your proficiency bonus as a reaction. </p>
       <p> </p>
-      <p class="indent">1 Incantation: Flame - You create a flame to moderately burn or heat objects/characters. You may either enspell a weapon with fire damage or make an attack. An enspelled weapon will deal an extra 1d6 of fire damage which you must maintain concentration on. The target of the attack must make a Dexterity saving throw and suffers 2d6 fire damage on a failed save</p>
+      <p class="indent">1 Incantation: Water Blade - You surround your weapon (or unarmed strike) with a thin coat of water that acts as a blade. Your chosen weapon will do an additional 1d6 slashing or piercing damage.</p>
       <p> </p>
-      <p class="indent">2 Incantations: Blast - You create a flaming blast to melt objects/characters. The target must make a Dexterity saving throw, suffering 3d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">2 Incantations:  </p>
       <p> </p>
-      <p class="indent">3 Incantations: Scorch - You scorch the enemy in a searing fire. The target must make a Dexterity saving throw, suffering 4d6 fire damage on a failed save, and half damage on a success.</p>
+      <p class="indent">3 Incantations: </p>
       <p> </p>
-      <p class="indent">4 Incantations: Incinerate - You create an intense flame to incinerate objects/characters. All targets in a 10-ft radius must make a Dexterity saving throw, suffering 5d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">4 Incantations: </p>
       <p> </p>
-      <p class="indent">5 Incantations: Wildfire - You create a fast-heating wildfire to engulf objects/characters. All targets in a 10-ft radius must make a Dexterity saving throw, suffering 6d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">5 Incantations: </p>
       <p> </p>
-      <p class="indent">6 Incantations: Inferno - You create a raging inferno to melt objects/characters. All targets in a 15-ft radius must make a Dexterity saving throw, suffering 7d6 fire damage on a failed save and half damage on a success.</p>
+      <p class="indent">6 Incantations: </p>
       <p> </p>
-      <p class="indent">7 Incantations: Fireball - You create a near-instantanous explosion to destroy objects/characters. All targets in a 15-ft radius must make a Dexterity saving throw, suffering 8d6 fire damage on a failed save, or half damage on a success.</p>
+      <p class="indent">7 Incantations: Waterfall</p>
       <p> </p>
-      <p class="indent">8 Incantations: Cremate - You create a bone-melting fire to destroy objects/characters. All targets in a 20-ft radius must make a Dexterity saving throw, suffering 9d6 fire damage on a failed save, or half damage on a success.</p>
+      <p class="indent">8 Incantations: Whirlpool</p>
       <p> </p>
-      <p class="indent">9 Incantations: Explosion - You create a catastrophic explosion to annihilate objects/characters. All targets in a 20-ft radius must make a Dexterity saving throw, suffering 10d6 fire damage on a failed save, or half damage on a success.</p>
+      <p class="indent">9 Incantations: Tsunami </p>
       <p> </p>
-      <p>Exceeding 3 incantations above your current class level will cause your character to accumulate an exhaustion point.</p>
+      <p>Exceeding 3 incantations above your current class level will require a d20 roll (success: 12+) to add more incantation stacks. Failing this roll will cause your character to damage their magical focus, taking 1d8 damage.</p>
     </description>
     <setters>
-      <set name="keywords">fire</set>
+      <set name="keywords">water</set>
       <set name="level">0</set>
       <set name="school">Magick</set>
       <set name="time">1 action</set>
@@ -94,6 +94,7 @@
     </setters>
   </element>
 </elements>
+
 
 
 
